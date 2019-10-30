@@ -49,5 +49,13 @@ public class Departamento {
 	public void setProjetos(List<Projeto> projetos) {
 		this.projetos = projetos;
 	}
+	
+	public List<Funcionario> getFuncionarios() {
+		return funcionarios;
+	}
+	
+	public void setFuncionarios(List<Funcionario> funcionarios) {
+		this.funcionarios = funcionarios;
+	}
 
 }
